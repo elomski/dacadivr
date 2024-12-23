@@ -1,8 +1,7 @@
-"use client"; // Assure l'exécution côté client
+"use client";
 
-import { useRouter } from "next/navigation"; // Utilise `useRouter` pour la navigation
+import { useRouter } from "next/router";
 import { useEffect } from "react";
-//import { routes } from "./routes"; // Importe les routes depuis le fichier séparé
 
 export default function Home() {
   const router = useRouter();
@@ -10,10 +9,10 @@ export default function Home() {
   useEffect(() => {
     // Redirection automatique après 3 secondes
     const timer = setTimeout(() => {
-      router.push("pages/principale"); // Redirection vers la page principale
+      router.push("/main"); // Remplace "/main" par la route de ta page principale
     }, 3000);
 
-    // Nettoyer le timer si le composant est démonté
+    // Nettoyage du timer pour éviter des erreurs si le composant est démonté
     return () => clearTimeout(timer);
   }, [router]);
 
