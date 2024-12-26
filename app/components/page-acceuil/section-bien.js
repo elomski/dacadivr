@@ -1,5 +1,5 @@
 "use client"; // Rendu côté client
-import "../styles/section-bien.css"; 
+import "../../styles/section-bien.css";
 import Image from "next/image";
 import { FaBed, FaShower, FaExpandAlt } from "react-icons/fa";
 
