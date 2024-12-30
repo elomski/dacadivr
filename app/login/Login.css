@@ -1,0 +1,23 @@
+/* styles/custom.css */
+.custom-container {
+    width: 100vw; /* Largeur à 100% de l'écran */
+    height: 100vh; /* Hauteur à 100% de l'écran */
+    display: flex;
+    background-color: #f9fafb; /* Gris clair */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
