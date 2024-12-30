@@ -1,0 +1,32 @@
+/* Style pour la div fixée */
+/* .fixed-div {
+    position: fixed;     
+    background-image: url(/Images/brina-blum-nWX4pKwzLoE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-right: auto;
+    color: white;    
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  */
+  /* } */
+   
+
+
+  .fixed-div {
+    position: fixed;     
+    background-image: url(/Images/brina-blum-nWX4pKwzLoE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 49%;
+    height: 100vh; /* Pleine hauteur de l'écran */
+    color: white;    
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    z-index: 10; /* Pour qu'elle soit au-dessus si nécessaire */
+  }
+  

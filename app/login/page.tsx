@@ -17,14 +17,15 @@ export default function Page() {
   const [selectedTab, setSelectedTab] = useState("phone"); // Onglet par défaut : téléphone
 
   return (
-    <div className=" flex   w-screen  bg-gray-50">
-      <div className="flex flex-col  ">
-        <Link href="/" className="flex items-center gap-2">
+    <div className=" flex   w-full  bg-gray-50">
+      
+      <div className="w-[40%]  items-center justify-center flex-col">
+      <div className="flex  mr-auto ml-auto w-[100] mb-4 border rounded-sm justify-center items-">
+        <Link href="/pages/principale" className="flex items-center gap-2">
           <FontAwesomeIcon icon={faArrowLeft} className="text-black text-2xl" />
           <span>Retour</span>
         </Link>
-      </div><br /><br />
-      <div className="w-1/2 ">
+      </div>
         <div
           style={{ margin: "auto", padding: "20px" }}
           className="w-3/5 items-center bg-white "
